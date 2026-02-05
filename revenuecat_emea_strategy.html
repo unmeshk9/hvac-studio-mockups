@@ -1,0 +1,1694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevenueCat EMEA Strategic Account Executive | Playbook 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --rc-purple: #6B5CE7;
+            --rc-purple-dark: #5346C7;
+            --rc-purple-light: #8B7DF0;
+            --rc-coral: #FF6B6B;
+            --rc-teal: #0D9488;
+            --rc-gold: #F59E0B;
+            --rc-navy: #1E293B;
+            --rc-slate: #64748B;
+            --rc-gray: #F1F5F9;
+            --rc-white: #FFFFFF;
+            --gradient-hero: linear-gradient(135deg, #1E293B 0%, #334155 50%, #475569 100%);
+            --gradient-accent: linear-gradient(135deg, #6B5CE7 0%, #8B7DF0 100%);
+            --shadow-card: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+            --shadow-elevated: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--rc-gray);
+            color: var(--rc-navy);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: var(--gradient-hero);
+            color: var(--rc-white);
+            padding: 4rem 0 6rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50%;
+            height: 100%;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236B5CE7' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(107, 92, 231, 0.3);
+            border: 1px solid rgba(107, 92, 231, 0.5);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero h1 span {
+            background: var(--gradient-accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: rgba(255,255,255,0.8);
+            max-width: 600px;
+            margin-bottom: 2rem;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--rc-purple-light);
+        }
+
+        .stat-label {
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.6);
+            margin-top: 0.25rem;
+        }
+
+        /* Navigation */
+        .nav-tabs {
+            background: var(--rc-white);
+            border-bottom: 1px solid #E2E8F0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow-card);
+        }
+
+        .nav-tabs-inner {
+            display: flex;
+            gap: 0;
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+
+        .nav-tabs-inner::-webkit-scrollbar {
+            display: none;
+        }
+
+        .nav-tab {
+            padding: 1rem 1.5rem;
+            font-weight: 500;
+            color: var(--rc-slate);
+            text-decoration: none;
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+            transition: all 0.2s ease;
+            font-size: 0.9rem;
+        }
+
+        .nav-tab:hover {
+            color: var(--rc-purple);
+            background: rgba(107, 92, 231, 0.05);
+        }
+
+        .nav-tab.active {
+            color: var(--rc-purple);
+            border-bottom-color: var(--rc-purple);
+        }
+
+        /* Sections */
+        .section {
+            padding: 4rem 0;
+        }
+
+        .section-header {
+            margin-bottom: 3rem;
+        }
+
+        .section-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--rc-purple);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--rc-navy);
+            letter-spacing: -0.02em;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--rc-white);
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: var(--shadow-card);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-elevated);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .card-icon.purple { background: rgba(107, 92, 231, 0.1); color: var(--rc-purple); }
+        .card-icon.teal { background: rgba(13, 148, 136, 0.1); color: var(--rc-teal); }
+        .card-icon.coral { background: rgba(255, 107, 107, 0.1); color: var(--rc-coral); }
+        .card-icon.gold { background: rgba(245, 158, 11, 0.1); color: var(--rc-gold); }
+
+        .card-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--rc-navy);
+        }
+
+        /* Grid Layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 1024px) {
+            .grid-4 { grid-template-columns: repeat(2, 1fr); }
+            .grid-3 { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 2.5rem; }
+            .hero-stats { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        /* Market Map */
+        .market-map {
+            background: var(--rc-white);
+            border-radius: 1rem;
+            padding: 2rem;
+            box-shadow: var(--shadow-card);
+        }
+
+        .market-region {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 2rem;
+            padding: 1.5rem 0;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        .market-region:last-child {
+            border-bottom: none;
+        }
+
+        .region-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--rc-navy);
+        }
+
+        .region-countries {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .country-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--rc-gray);
+            border-radius: 2rem;
+            font-size: 0.875rem;
+            color: var(--rc-navy);
+        }
+
+        .country-tag.priority {
+            background: rgba(107, 92, 231, 0.1);
+            color: var(--rc-purple);
+            font-weight: 500;
+        }
+
+        /* Progress Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 3rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0.75rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--rc-purple), var(--rc-teal));
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-bottom: 2rem;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -2.35rem;
+            top: 0.25rem;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            background: var(--rc-purple);
+            border: 3px solid var(--rc-white);
+            box-shadow: 0 0 0 3px var(--rc-purple);
+        }
+
+        .timeline-period {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--rc-purple);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .timeline-content {
+            color: var(--rc-slate);
+        }
+
+        /* Account Table */
+        .account-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--rc-white);
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+        }
+
+        .account-table thead {
+            background: var(--rc-navy);
+            color: var(--rc-white);
+        }
+
+        .account-table th {
+            padding: 1rem 1.5rem;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        .account-table td {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        .account-table tbody tr:hover {
+            background: rgba(107, 92, 231, 0.02);
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .tier-badge.tier-1 { background: rgba(107, 92, 231, 0.1); color: var(--rc-purple); }
+        .tier-badge.tier-2 { background: rgba(13, 148, 136, 0.1); color: var(--rc-teal); }
+        .tier-badge.tier-3 { background: rgba(245, 158, 11, 0.1); color: var(--rc-gold); }
+
+        /* Metric Cards */
+        .metric-card {
+            background: var(--rc-white);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: var(--shadow-card);
+            text-align: center;
+        }
+
+        .metric-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--rc-navy);
+        }
+
+        .metric-label {
+            font-size: 0.875rem;
+            color: var(--rc-slate);
+            margin-top: 0.25rem;
+        }
+
+        .metric-trend {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .metric-trend.up { color: var(--rc-teal); }
+        .metric-trend.down { color: var(--rc-coral); }
+
+        /* Competitive Intel */
+        .competitor-card {
+            background: var(--rc-white);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: var(--shadow-card);
+            border-left: 4px solid var(--rc-slate);
+        }
+
+        .competitor-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .competitor-type {
+            font-size: 0.75rem;
+            color: var(--rc-slate);
+            margin-bottom: 1rem;
+        }
+
+        .competitor-pros, .competitor-cons {
+            margin-bottom: 1rem;
+        }
+
+        .competitor-pros h4, .competitor-cons h4 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .competitor-pros h4 { color: var(--rc-teal); }
+        .competitor-cons h4 { color: var(--rc-coral); }
+
+        .competitor-list {
+            list-style: none;
+            font-size: 0.875rem;
+            color: var(--rc-slate);
+        }
+
+        .competitor-list li {
+            padding: 0.25rem 0;
+            padding-left: 1rem;
+            position: relative;
+        }
+
+        .competitor-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+        }
+
+        /* Talking Points */
+        .talking-point {
+            background: var(--rc-white);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: var(--shadow-card);
+            border-left: 4px solid var(--rc-purple);
+        }
+
+        .talking-point-scenario {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--rc-purple);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .talking-point-objection {
+            font-weight: 600;
+            color: var(--rc-navy);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .talking-point-response {
+            color: var(--rc-slate);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--rc-navy);
+            color: rgba(255,255,255,0.6);
+            padding: 3rem 0;
+            text-align: center;
+            font-size: 0.875rem;
+        }
+
+        .footer-logo {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--rc-white);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Utility Classes */
+        .text-muted { color: var(--rc-slate); }
+        .text-purple { color: var(--rc-purple); }
+        .text-teal { color: var(--rc-teal); }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        .mb-1 { margin-bottom: 0.5rem; }
+        .mb-2 { margin-bottom: 1rem; }
+        .mb-3 { margin-bottom: 1.5rem; }
+        .mb-4 { margin-bottom: 2rem; }
+
+        /* Print Styles */
+        @media print {
+            .nav-tabs { display: none; }
+            .hero { padding: 2rem 0; }
+            .section { padding: 2rem 0; page-break-inside: avoid; }
+            .card { box-shadow: none; border: 1px solid #E2E8F0; }
+        }
+
+        /* Scoring Framework */
+        .score-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 1rem;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid #E2E8F0;
+        }
+
+        .score-grid:last-child {
+            border-bottom: none;
+        }
+
+        .score-criteria {
+            font-weight: 600;
+            color: var(--rc-navy);
+        }
+
+        .score-description {
+            color: var(--rc-slate);
+            font-size: 0.9rem;
+        }
+
+        .score-weight {
+            text-align: right;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--rc-purple);
+            font-weight: 500;
+        }
+
+        /* Checklist */
+        .checklist {
+            list-style: none;
+        }
+
+        .checklist li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #F1F5F9;
+        }
+
+        .checklist li:last-child {
+            border-bottom: none;
+        }
+
+        .checklist-check {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            background: var(--rc-purple);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(107, 92, 231, 0.05) 0%, rgba(13, 148, 136, 0.05) 100%);
+            border: 1px solid rgba(107, 92, 231, 0.2);
+            border-radius: 1rem;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .highlight-box h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--rc-navy);
+            margin-bottom: 1rem;
+        }
+
+        /* KPI Dashboard */
+        .kpi-row {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 1024px) {
+            .kpi-row { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .kpi-row { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        /* Persona Cards */
+        .persona-card {
+            background: var(--rc-white);
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+        }
+
+        .persona-header {
+            background: var(--gradient-hero);
+            color: white;
+            padding: 1.5rem;
+        }
+
+        .persona-role {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .persona-title {
+            font-size: 0.875rem;
+            opacity: 0.8;
+        }
+
+        .persona-body {
+            padding: 1.5rem;
+        }
+
+        .persona-section {
+            margin-bottom: 1rem;
+        }
+
+        .persona-section h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--rc-slate);
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .persona-section p, .persona-section ul {
+            font-size: 0.9rem;
+            color: var(--rc-navy);
+        }
+
+        .persona-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .persona-section li::before {
+            content: '→ ';
+            color: var(--rc-purple);
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>📍</span>
+                    <span>EMEA Strategic Playbook 2026</span>
+                </div>
+                <h1>RevenueCat <span>EMEA</span><br>Go-To-Market Strategy</h1>
+                <p class="hero-subtitle">A comprehensive strategic framework for capturing the European, Middle Eastern, and African subscription app market — built for consultative selling in a PLG environment.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">€2.8B</div>
+                        <div class="stat-label">EMEA Subscription App TAM</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">70K+</div>
+                        <div class="stat-label">Apps Powered Globally</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">$10B+</div>
+                        <div class="stat-label">Annual Transactions</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">1/3</div>
+                        <div class="stat-label">New Sub Apps Use RC</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav class="nav-tabs">
+        <div class="container">
+            <div class="nav-tabs-inner">
+                <a href="#market" class="nav-tab active">Market Analysis</a>
+                <a href="#accounts" class="nav-tab">Target Accounts</a>
+                <a href="#scoring" class="nav-tab">Account Scoring</a>
+                <a href="#playbook" class="nav-tab">90-Day Playbook</a>
+                <a href="#personas" class="nav-tab">Buyer Personas</a>
+                <a href="#competitive" class="nav-tab">Competitive Intel</a>
+                <a href="#objections" class="nav-tab">Objection Handling</a>
+                <a href="#kpis" class="nav-tab">KPIs & Targets</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Market Analysis Section -->
+    <section id="market" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">01 — Market Analysis</div>
+                <h2 class="section-title">EMEA Market Opportunity</h2>
+            </div>
+
+            <div class="grid-4 mb-4">
+                <div class="metric-card">
+                    <div class="metric-value">€1.1B</div>
+                    <div class="metric-label">UK & Ireland Market</div>
+                    <div class="metric-trend up">↑ 24% YoY</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">€680M</div>
+                    <div class="metric-label">DACH Region</div>
+                    <div class="metric-trend up">↑ 21% YoY</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">€520M</div>
+                    <div class="metric-label">Nordics</div>
+                    <div class="metric-trend up">↑ 28% YoY</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">€490M</div>
+                    <div class="metric-label">France & Benelux</div>
+                    <div class="metric-trend up">↑ 19% YoY</div>
+                </div>
+            </div>
+
+            <div class="market-map">
+                <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; margin-bottom: 1.5rem;">Priority Markets by Region</h3>
+                
+                <div class="market-region">
+                    <div class="region-name">🇬🇧 UK & Ireland</div>
+                    <div class="region-countries">
+                        <span class="country-tag priority">London (FinTech Hub)</span>
+                        <span class="country-tag priority">Cambridge (AI Cluster)</span>
+                        <span class="country-tag">Manchester</span>
+                        <span class="country-tag">Dublin</span>
+                        <span class="country-tag">Edinburgh</span>
+                    </div>
+                </div>
+
+                <div class="market-region">
+                    <div class="region-name">🇩🇪 DACH</div>
+                    <div class="region-countries">
+                        <span class="country-tag priority">Berlin (Startup Hub)</span>
+                        <span class="country-tag priority">Munich (Enterprise)</span>
+                        <span class="country-tag">Zurich</span>
+                        <span class="country-tag">Vienna</span>
+                        <span class="country-tag">Hamburg</span>
+                    </div>
+                </div>
+
+                <div class="market-region">
+                    <div class="region-name">🇸🇪 Nordics</div>
+                    <div class="region-countries">
+                        <span class="country-tag priority">Stockholm (Unicorn Factory)</span>
+                        <span class="country-tag">Copenhagen</span>
+                        <span class="country-tag">Helsinki</span>
+                        <span class="country-tag">Oslo</span>
+                    </div>
+                </div>
+
+                <div class="market-region">
+                    <div class="region-name">🇫🇷 France & Benelux</div>
+                    <div class="region-countries">
+                        <span class="country-tag priority">Paris (Station F)</span>
+                        <span class="country-tag">Amsterdam</span>
+                        <span class="country-tag">Brussels</span>
+                        <span class="country-tag">Lyon</span>
+                    </div>
+                </div>
+
+                <div class="market-region">
+                    <div class="region-name">🇮🇱 Middle East</div>
+                    <div class="region-countries">
+                        <span class="country-tag priority">Tel Aviv (Tech Hub)</span>
+                        <span class="country-tag">Dubai</span>
+                        <span class="country-tag">Riyadh (Vision 2030)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <h3>🎯 Key EMEA Market Insights 2026</h3>
+                <div class="grid-2">
+                    <div>
+                        <p><strong>AI-First Apps Dominating:</strong> AI apps now represent 35%+ of top-grossing subscription apps in EMEA. RevenueCat's AI paywall generation and Funnels product (launched 2026) are key differentiators in this segment.</p>
+                        <p style="margin-top: 1rem;"><strong>Web Payments Matured:</strong> Post Apple-Epic ruling adoption is now mainstream. RevenueCat's Web Billing + Paddle partnership processes €500M+ annually in EMEA web transactions alone.</p>
+                    </div>
+                    <div>
+                        <p><strong>Enterprise Migration Accelerating:</strong> RC Capital (daily payouts) and mature Web Billing are triggering enterprise migrations. Large publishers are replacing internal stacks at 2x the rate of 2025.</p>
+                        <p style="margin-top: 1rem;"><strong>Vertical Hotspots 2026:</strong> AI/Productivity (UK, Germany), Health/Fitness (Nordics), Streaming (France), FinTech Super-Apps (UK, Nordics), Gaming/Entertainment (France, Germany).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Accounts Section -->
+    <section id="accounts" class="section" style="background: white;">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">02 — Target Accounts</div>
+                <h2 class="section-title">Strategic Account Pipeline</h2>
+            </div>
+
+            <table class="account-table">
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Vertical</th>
+                        <th>HQ</th>
+                        <th>Est. MTR Potential</th>
+                        <th>Status</th>
+                        <th>Tier</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Revolut</strong></td>
+                        <td>FinTech</td>
+                        <td>🇬🇧 London</td>
+                        <td>$150K+/mo</td>
+                        <td>Enterprise Prospect</td>
+                        <td><span class="tier-badge tier-1">Tier 1</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Spotify</strong></td>
+                        <td>Streaming</td>
+                        <td>🇸🇪 Stockholm</td>
+                        <td>$200K+/mo</td>
+                        <td>Enterprise Prospect</td>
+                        <td><span class="tier-badge tier-1">Tier 1</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>N26</strong></td>
+                        <td>FinTech</td>
+                        <td>🇩🇪 Berlin</td>
+                        <td>$80K+/mo</td>
+                        <td>Inbound Qualified</td>
+                        <td><span class="tier-badge tier-1">Tier 1</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wolt</strong></td>
+                        <td>Delivery</td>
+                        <td>🇫🇮 Helsinki</td>
+                        <td>$60K+/mo</td>
+                        <td>PLG User (Expansion)</td>
+                        <td><span class="tier-badge tier-2">Tier 2</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zalando</strong></td>
+                        <td>E-commerce</td>
+                        <td>🇩🇪 Berlin</td>
+                        <td>$100K+/mo</td>
+                        <td>Enterprise Prospect</td>
+                        <td><span class="tier-badge tier-1">Tier 1</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Klarna</strong></td>
+                        <td>FinTech</td>
+                        <td>🇸🇪 Stockholm</td>
+                        <td>$120K+/mo</td>
+                        <td>Enterprise Prospect</td>
+                        <td><span class="tier-badge tier-1">Tier 1</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Bolt</strong></td>
+                        <td>Mobility</td>
+                        <td>🇪🇪 Tallinn</td>
+                        <td>$70K+/mo</td>
+                        <td>PLG User (Expansion)</td>
+                        <td><span class="tier-badge tier-2">Tier 2</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vivino</strong></td>
+                        <td>Lifestyle</td>
+                        <td>🇩🇰 Copenhagen</td>
+                        <td>$40K+/mo</td>
+                        <td>Free Tier User</td>
+                        <td><span class="tier-badge tier-2">Tier 2</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Photoroom</strong></td>
+                        <td>AI/Creative</td>
+                        <td>🇫🇷 Paris</td>
+                        <td>$50K+/mo</td>
+                        <td>Current Customer</td>
+                        <td><span class="tier-badge tier-2">Tier 2</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Curve</strong></td>
+                        <td>FinTech</td>
+                        <td>🇬🇧 London</td>
+                        <td>$35K+/mo</td>
+                        <td>Inbound Lead</td>
+                        <td><span class="tier-badge tier-3">Tier 3</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="highlight-box">
+                <h3>🔍 Account Identification Sources</h3>
+                <div class="grid-3">
+                    <div>
+                        <h4 style="font-weight: 600; margin-bottom: 0.5rem;">App Store Intelligence</h4>
+                        <p class="text-muted" style="font-size: 0.9rem;">Sensor Tower, App Annie, and Data.ai rankings for subscription apps in EMEA markets. Focus on apps not yet using RevenueCat SDK.</p>
+                    </div>
+                    <div>
+                        <h4 style="font-weight: 600; margin-bottom: 0.5rem;">Funding Announcements</h4>
+                        <p class="text-muted" style="font-size: 0.9rem;">Series A-C funded startups with mobile-first products. Recently funded = ready to invest in proper infrastructure.</p>
+                    </div>
+                    <div>
+                        <h4 style="font-weight: 600; margin-bottom: 0.5rem;">RevenueCat Dashboard</h4>
+                        <p class="text-muted" style="font-size: 0.9rem;">Free tier users with growing MTR, approaching thresholds, or showing patterns that suggest expansion readiness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Account Scoring Section -->
+    <section id="scoring" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">03 — Account Scoring</div>
+                <h2 class="section-title">EMEA Account Prioritization Framework</h2>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon purple">📊</div>
+                        <h3 class="card-title">Quantitative Scoring (60%)</h3>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Current MTR</div>
+                        <div class="score-description">Monthly tracked revenue through RevenueCat or estimated</div>
+                        <div class="score-weight">20pts</div>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Growth Velocity</div>
+                        <div class="score-description">MoM growth rate, funding stage, market expansion</div>
+                        <div class="score-weight">15pts</div>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Platform Complexity</div>
+                        <div class="score-description">iOS + Android + Web = higher need for unified solution</div>
+                        <div class="score-weight">10pts</div>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Team Size</div>
+                        <div class="score-description">Engineering team size correlates with buying capacity</div>
+                        <div class="score-weight">10pts</div>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">App Store Rank</div>
+                        <div class="score-description">Category rank indicates market validation</div>
+                        <div class="score-weight">5pts</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon teal">🎯</div>
+                        <h3 class="card-title">Qualitative Scoring (40%)</h3>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Tech Stack Fit</div>
+                        <div class="score-description">Native iOS/Android, React Native, Flutter, Unity</div>
+                        <div class="score-weight">10pts</div>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Monetization Model</div>
+                        <div class="score-description">Subscriptions (ideal), consumables, hybrid models</div>
+                        <div class="score-weight">10pts</div>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Champion Identified</div>
+                        <div class="score-description">Internal advocate (PM, Lead Engineer, Head of Growth)</div>
+                        <div class="score-weight">10pts</div>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Timing Signal</div>
+                        <div class="score-description">New app launch, migration pain, team changes</div>
+                        <div class="score-weight">5pts</div>
+                    </div>
+                    <div class="score-grid">
+                        <div class="score-criteria">Reference Potential</div>
+                        <div class="score-description">Brand recognition for case studies/testimonials</div>
+                        <div class="score-weight">5pts</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top: 2rem;">
+                <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.25rem; font-weight: 600; margin-bottom: 1.5rem;">Tier Classification</h3>
+                <div class="grid-3">
+                    <div style="padding: 1.5rem; background: rgba(107, 92, 231, 0.05); border-radius: 0.75rem; border-left: 4px solid var(--rc-purple);">
+                        <h4 style="font-weight: 600; color: var(--rc-purple); margin-bottom: 0.5rem;">Tier 1: Strategic (80-100 pts)</h4>
+                        <p class="text-muted" style="font-size: 0.9rem;">High-touch engagement. Dedicated AE + SE pairing. Custom contracts, quarterly business reviews, executive sponsorship.</p>
+                    </div>
+                    <div style="padding: 1.5rem; background: rgba(13, 148, 136, 0.05); border-radius: 0.75rem; border-left: 4px solid var(--rc-teal);">
+                        <h4 style="font-weight: 600; color: var(--rc-teal); margin-bottom: 0.5rem;">Tier 2: Growth (50-79 pts)</h4>
+                        <p class="text-muted" style="font-size: 0.9rem;">Consultative support. AE-led demos, SE support as needed. Standard contracts with growth path to enterprise.</p>
+                    </div>
+                    <div style="padding: 1.5rem; background: rgba(245, 158, 11, 0.05); border-radius: 0.75rem; border-left: 4px solid var(--rc-gold);">
+                        <h4 style="font-weight: 600; color: var(--rc-gold); margin-bottom: 0.5rem;">Tier 3: PLG Nurture (Below 50 pts)</h4>
+                        <p class="text-muted" style="font-size: 0.9rem;">Product-led conversion. Automated nurture sequences, self-serve resources, office hours access.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 90-Day Playbook Section -->
+    <section id="playbook" class="section" style="background: white;">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">04 — 90-Day Playbook</div>
+                <h2 class="section-title">First Quarter Execution Plan</h2>
+            </div>
+
+            <div class="grid-2">
+                <div>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-period">DAYS 1-30 — Foundation</div>
+                            <div class="timeline-title">Immersion & Account Transition</div>
+                            <div class="timeline-content">
+                                <ul class="checklist">
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Complete RevenueCat product deep-dive: dashboard, SDK integration, docs, and pricing model</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Shadow Amanda on 10+ sales calls and customer meetings</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Build and ship own RevenueCat-powered app to understand developer experience</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Begin transition of 5-8 strategic EMEA accounts with intro calls</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Identify initial 10 high-potential prospects from inbound + research</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-period">DAYS 31-60 — Activation</div>
+                            <div class="timeline-title">Own Accounts & Close Deals</div>
+                            <div class="timeline-content">
+                                <ul class="checklist">
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Full ownership of strategic account portfolio with QBR cadence</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Close first 2-3 deals (conversions, expansions, or new enterprise)</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Establish light outbound rhythm: 20 personalized touches/week</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Run first SE-supported enterprise demo with Tier 1 prospect</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Sync weekly with CS team on account health and expansion signals</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-period">DAYS 61-90 — Momentum</div>
+                            <div class="timeline-title">Hit Quota & Refine Playbook</div>
+                            <div class="timeline-content">
+                                <ul class="checklist">
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Achieve Q1 quota through mix of new and expansion revenue</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Document EMEA-specific sales playbook learnings for team</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Present proactive growth plan to at least 1 major customer</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Build pipeline of 10+ qualified opportunities for Q2</span>
+                                    </li>
+                                    <li>
+                                        <span class="checklist-check">✓</span>
+                                        <span>Provide product feedback synthesis to Product team</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <div class="card-icon coral">🎯</div>
+                            <h3 class="card-title">Q1 Success Metrics</h3>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div style="text-align: center; padding: 1rem; background: var(--rc-gray); border-radius: 0.5rem;">
+                                <div style="font-family: 'Space Grotesk'; font-size: 2rem; font-weight: 700; color: var(--rc-purple);">$150K</div>
+                                <div class="text-muted" style="font-size: 0.875rem;">Net New ARR Target</div>
+                            </div>
+                            <div style="text-align: center; padding: 1rem; background: var(--rc-gray); border-radius: 0.5rem;">
+                                <div style="font-family: 'Space Grotesk'; font-size: 2rem; font-weight: 700; color: var(--rc-teal);">8-10</div>
+                                <div class="text-muted" style="font-size: 0.875rem;">Strategic Accounts Owned</div>
+                            </div>
+                            <div style="text-align: center; padding: 1rem; background: var(--rc-gray); border-radius: 0.5rem;">
+                                <div style="font-family: 'Space Grotesk'; font-size: 2rem; font-weight: 700; color: var(--rc-coral);">3-5</div>
+                                <div class="text-muted" style="font-size: 0.875rem;">Closed Deals</div>
+                            </div>
+                            <div style="text-align: center; padding: 1rem; background: var(--rc-gray); border-radius: 0.5rem;">
+                                <div style="font-family: 'Space Grotesk'; font-size: 2rem; font-weight: 700; color: var(--rc-gold);">15+</div>
+                                <div class="text-muted" style="font-size: 0.875rem;">Qualified Opps in Pipeline</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-icon gold">📅</div>
+                            <h3 class="card-title">Key EMEA Events 2026</h3>
+                        </div>
+                        <ul style="list-style: none; font-size: 0.95rem;">
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #F1F5F9; display: flex; justify-content: space-between;">
+                                <span><strong>Mobile World Congress</strong> — Barcelona</span>
+                                <span class="text-muted">Mar 2-5</span>
+                            </li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #F1F5F9; display: flex; justify-content: space-between;">
+                                <span><strong>App Promotion Summit</strong> — London</span>
+                                <span class="text-muted">Apr 22</span>
+                            </li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #F1F5F9; display: flex; justify-content: space-between;">
+                                <span><strong>App Growth Annual</strong> — (RC Event)</span>
+                                <span class="text-muted">Q4</span>
+                            </li>
+                            <li style="padding: 0.75rem 0; border-bottom: 1px solid #F1F5F9; display: flex; justify-content: space-between;">
+                                <span><strong>Slush</strong> — Helsinki</span>
+                                <span class="text-muted">Nov 18-19</span>
+                            </li>
+                            <li style="padding: 0.75rem 0; display: flex; justify-content: space-between;">
+                                <span><strong>Web Summit</strong> — Lisbon</span>
+                                <span class="text-muted">Nov 10-13</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buyer Personas Section -->
+    <section id="personas" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">05 — Buyer Personas</div>
+                <h2 class="section-title">Key Decision Makers & Influencers</h2>
+            </div>
+
+            <div class="grid-3">
+                <div class="persona-card">
+                    <div class="persona-header">
+                        <div class="persona-role">👩‍💻 Engineering Lead</div>
+                        <div class="persona-title">Technical Decision Maker</div>
+                    </div>
+                    <div class="persona-body">
+                        <div class="persona-section">
+                            <h4>Primary Concerns</h4>
+                            <ul>
+                                <li>SDK reliability & performance</li>
+                                <li>API documentation quality</li>
+                                <li>Edge case handling</li>
+                                <li>Migration complexity</li>
+                            </ul>
+                        </div>
+                        <div class="persona-section">
+                            <h4>Winning Message</h4>
+                            <p>"Reduce 30-45% of backend code. No more StoreKit/Play Billing maintenance. Unified cross-platform SDK."</p>
+                        </div>
+                        <div class="persona-section">
+                            <h4>Proof Points</h4>
+                            <p>Ladder's 45% code reduction, ChatGPT integration case study, SDK GitHub stars (15K+), Funnels web-to-app conversion lift</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <div class="persona-header" style="background: linear-gradient(135deg, #0D9488 0%, #14B8A6 100%);">
+                        <div class="persona-role">📈 Head of Growth / PM</div>
+                        <div class="persona-title">Business Decision Maker</div>
+                    </div>
+                    <div class="persona-body">
+                        <div class="persona-section">
+                            <h4>Primary Concerns</h4>
+                            <ul>
+                                <li>Conversion rate optimization</li>
+                                <li>A/B testing capabilities</li>
+                                <li>LTV/churn analytics</li>
+                                <li>Paywall experimentation</li>
+                            </ul>
+                        </div>
+                        <div class="persona-section">
+                            <h4>Winning Message</h4>
+                            <p>"Ship paywall tests without app updates. Real-time analytics across all platforms. Benchmark against industry."</p>
+                        </div>
+                        <div class="persona-section">
+                            <h4>Proof Points</h4>
+                            <p>RocketSim 47% LTV increase from Experiments, Lose It! paywall case study, State of Subscriptions report</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="persona-card">
+                    <div class="persona-header" style="background: linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%);">
+                        <div class="persona-role">💼 CFO / Finance</div>
+                        <div class="persona-title">Budget Holder</div>
+                    </div>
+                    <div class="persona-body">
+                        <div class="persona-section">
+                            <h4>Primary Concerns</h4>
+                            <ul>
+                                <li>Total cost of ownership</li>
+                                <li>Revenue recognition</li>
+                                <li>Platform fee optimization</li>
+                                <li>Cash flow timing</li>
+                            </ul>
+                        </div>
+                        <div class="persona-section">
+                            <h4>Winning Message</h4>
+                            <p>"Web billing saves up to 27% in platform fees. RC Capital provides next-day payouts. Clear MTR-based pricing."</p>
+                        </div>
+                        <div class="persona-section">
+                            <h4>Proof Points</h4>
+                            <p>Platform fee savings calculator, Paddle partnership for tax/compliance, usage-based pricing transparency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <h3>💡 EMEA-Specific Buyer Dynamics</h3>
+                <div class="grid-2">
+                    <div>
+                        <p><strong>Longer Sales Cycles:</strong> Enterprise deals in DACH/Nordics typically run 3-6 months vs. 1-3 months in US. Budget cycles align with fiscal year (often calendar year in Europe).</p>
+                        <p style="margin-top: 1rem;"><strong>Data Privacy Focus:</strong> GDPR compliance is table stakes. Emphasize RevenueCat's data handling, EU data residency options, and privacy-first architecture.</p>
+                    </div>
+                    <div>
+                        <p><strong>Multi-Language Support:</strong> Localization matters. Paywalls, Customer Center, and communications in local languages drive higher conversion in non-English markets.</p>
+                        <p style="margin-top: 1rem;"><strong>Procurement Complexity:</strong> Large EU enterprises have formal vendor assessment processes. Security questionnaires, SOC 2, ISO 27001 — be ready with compliance documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitive Intelligence Section -->
+    <section id="competitive" class="section" style="background: white;">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">06 — Competitive Intelligence</div>
+                <h2 class="section-title">EMEA Competitive Landscape</h2>
+            </div>
+
+            <div class="grid-2">
+                <div class="competitor-card" style="border-left-color: #EF4444;">
+                    <div class="competitor-name">Qonversion</div>
+                    <div class="competitor-type">Direct Competitor — EU-based</div>
+                    <div class="competitor-pros">
+                        <h4>Their Strengths</h4>
+                        <ul class="competitor-list">
+                            <li>EU-headquartered (appeals to GDPR-sensitive buyers)</li>
+                            <li>Aggressive pricing for smaller apps</li>
+                            <li>Strong in Eastern European markets</li>
+                        </ul>
+                    </div>
+                    <div class="competitor-cons">
+                        <h4>Our Advantages</h4>
+                        <ul class="competitor-list">
+                            <li>70K+ apps vs. limited scale — enterprise credibility</li>
+                            <li>ChatGPT, Notion, VSCO customer logos</li>
+                            <li>Far superior analytics, experimentation, and AI paywalls</li>
+                            <li>Web Billing + Paddle + RC Capital ecosystem</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="competitor-card" style="border-left-color: #3B82F6;">
+                    <div class="competitor-name">Purchasely</div>
+                    <div class="competitor-type">Direct Competitor — France-based</div>
+                    <div class="competitor-pros">
+                        <h4>Their Strengths</h4>
+                        <ul class="competitor-list">
+                            <li>Strong paywall builder (visual focus)</li>
+                            <li>Good traction in French market</li>
+                            <li>A/B testing capabilities</li>
+                        </ul>
+                    </div>
+                    <div class="competitor-cons">
+                        <h4>Our Advantages</h4>
+                        <ul class="competitor-list">
+                            <li>10x more apps, $10B+ transaction volume</li>
+                            <li>Superior SDK with broader platform support</li>
+                            <li>Paywalls V2 with web, video, AI generation, Funnels</li>
+                            <li>Developer-first DNA and community</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="competitor-card" style="border-left-color: #8B5CF6;">
+                    <div class="competitor-name">Internal Build</div>
+                    <div class="competitor-type">Build vs. Buy Decision</div>
+                    <div class="competitor-pros">
+                        <h4>Their Arguments</h4>
+                        <ul class="competitor-list">
+                            <li>"We have full control"</li>
+                            <li>"No third-party dependencies"</li>
+                            <li>"Our use case is unique"</li>
+                        </ul>
+                    </div>
+                    <div class="competitor-cons">
+                        <h4>Our Counter-Arguments</h4>
+                        <ul class="competitor-list">
+                            <li>2-3 FTE engineers for 12+ months = €350K+/year</li>
+                            <li>Constant StoreKit/Play Billing updates to maintain</li>
+                            <li>No benchmarks, limited analytics, no experimentation</li>
+                            <li>Cross-platform complexity explodes with web</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="competitor-card" style="border-left-color: #10B981;">
+                    <div class="competitor-name">Stripe Billing (for Web)</div>
+                    <div class="competitor-type">Partial Competitor — Web Payments</div>
+                    <div class="competitor-pros">
+                        <h4>Their Strengths</h4>
+                        <ul class="competitor-list">
+                            <li>Dominant web payments brand</li>
+                            <li>Comprehensive billing features</li>
+                            <li>Strong developer experience</li>
+                        </ul>
+                    </div>
+                    <div class="competitor-cons">
+                        <h4>Our Position (Complementary)</h4>
+                        <ul class="competitor-list">
+                            <li>RevenueCat uses Stripe as payment backend</li>
+                            <li>We add mobile app store integration layer</li>
+                            <li>Unified analytics across web AND mobile</li>
+                            <li>Best of both worlds positioning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objection Handling Section -->
+    <section id="objections" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">07 — Objection Handling</div>
+                <h2 class="section-title">Common Objections & Responses</h2>
+            </div>
+
+            <div class="grid-2">
+                <div class="talking-point">
+                    <div class="talking-point-scenario">Pricing Concern</div>
+                    <div class="talking-point-objection">"RevenueCat's percentage of MTR seems expensive at scale."</div>
+                    <div class="talking-point-response">
+                        <p>I understand the concern. Let's look at the total cost picture: Our customers typically save 30-45% of backend engineering time that would otherwise go to maintaining subscription infrastructure. At €160K/year for an engineer in London or Berlin, that's significant.</p>
+                        <p style="margin-top: 0.75rem;">Plus, with our Web Billing and Paddle partnership, you can reduce App Store fees by up to 27% on US iOS users by routing through web checkout. RC Capital also provides next-day payouts for 80% of your app store revenue — improving cash flow that can fund growth.</p>
+                        <p style="margin-top: 0.75rem;">Would it help to build an ROI model specific to your situation?</p>
+                    </div>
+                </div>
+
+                <div class="talking-point">
+                    <div class="talking-point-scenario">Build vs. Buy</div>
+                    <div class="talking-point-objection">"We've already built our own subscription system."</div>
+                    <div class="talking-point-response">
+                        <p>That's actually our most common starting point with larger publishers. The question isn't whether your current system works — I'm sure it does for basic functionality.</p>
+                        <p style="margin-top: 0.75rem;">The question is: what's the opportunity cost? Can your system run paywall A/B tests without app updates? Do you have real-time LTV analytics across iOS, Android, and web? Can you offer promotional pricing experiments next week?</p>
+                        <p style="margin-top: 0.75rem;">Companies like [reference similar EMEA customer] found that migrating freed their team to focus on product differentiation rather than billing infrastructure. What would your engineering team build if they weren't maintaining StoreKit updates?</p>
+                    </div>
+                </div>
+
+                <div class="talking-point">
+                    <div class="talking-point-scenario">Data Privacy / GDPR</div>
+                    <div class="talking-point-objection">"We have strict data privacy requirements. How does RevenueCat handle GDPR?"</div>
+                    <div class="talking-point-response">
+                        <p>Great question — it's one we hear often from EMEA customers. RevenueCat is SOC 2 Type II certified and fully GDPR compliant. We act as a data processor, not controller, meaning you retain control of your customer data.</p>
+                        <p style="margin-top: 0.75rem;">We offer data processing agreements (DPAs), support data deletion requests, and can configure data retention policies to match your requirements.</p>
+                        <p style="margin-top: 0.75rem;">Would your security team like to review our compliance documentation? I can also connect you with our Trust & Security team for a deeper dive.</p>
+                    </div>
+                </div>
+
+                <div class="talking-point">
+                    <div class="talking-point-scenario">Lock-in Concern</div>
+                    <div class="talking-point-objection">"We're worried about vendor lock-in with a critical system."</div>
+                    <div class="talking-point-response">
+                        <p>Vendor lock-in is a legitimate concern for critical infrastructure. Here's how we address it:</p>
+                        <p style="margin-top: 0.75rem;">First, your app always maintains direct relationships with Apple and Google — RevenueCat sits alongside, not between, you and the app stores. Your customers pay through the stores, and your developer accounts remain yours.</p>
+                        <p style="margin-top: 0.75rem;">Second, you own your data. You can export everything, set up webhooks to your own systems, and we have documented migration paths if you ever decide to move.</p>
+                        <p style="margin-top: 0.75rem;">Third, consider the alternative lock-in: building internally locks you into maintaining that codebase forever. With RevenueCat, you're locked into getting better features automatically — we shipped Paywalls V2, Web Billing, and RC Capital all in the last year.</p>
+                    </div>
+                </div>
+
+                <div class="talking-point">
+                    <div class="talking-point-scenario">Timing</div>
+                    <div class="talking-point-objection">"This isn't a priority right now."</div>
+                    <div class="talking-point-response">
+                        <p>I appreciate the honesty. Can I ask what is the current priority? Often subscription infrastructure becomes urgent at specific moments — a new app launch, cross-platform expansion, or when the team realizes they can't run experiments fast enough.</p>
+                        <p style="margin-top: 0.75rem;">If any of those are on your roadmap for the next 6-12 months, it's worth exploring now. Integrating RevenueCat is much easier before launching a new product than migrating existing subscribers later.</p>
+                        <p style="margin-top: 0.75rem;">Would it make sense to stay in touch? I can share relevant case studies or benchmark data from your vertical in the meantime.</p>
+                    </div>
+                </div>
+
+                <div class="talking-point">
+                    <div class="talking-point-scenario">Competitor Comparison</div>
+                    <div class="talking-point-objection">"We're also looking at [Qonversion/Purchasely]."</div>
+                    <div class="talking-point-response">
+                        <p>They're solid products — we respect them as competitors. Here's how I'd frame the decision:</p>
+                        <p style="margin-top: 0.75rem;">RevenueCat powers 1 in 3 new subscription apps globally and processes $10B+ annually. That scale means battle-tested reliability (ChatGPT, Notion, VSCO all depend on us), comprehensive benchmarks for your vertical, and a product roadmap driven by the largest ecosystem data in the industry.</p>
+                        <p style="margin-top: 0.75rem;">We also have Web Billing with Paddle, RC Capital for daily payouts, Paywalls V2 with AI generation, and Funnels for web-to-app conversion — capabilities that took years to build but you get immediately.</p>
+                        <p style="margin-top: 0.75rem;">What matters most to you in this decision? I want to make sure we're addressing your actual requirements, not just listing features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KPIs Section -->
+    <section id="kpis" class="section" style="background: white;">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">08 — KPIs & Targets</div>
+                <h2 class="section-title">Performance Measurement Framework</h2>
+            </div>
+
+            <div class="kpi-row">
+                <div class="metric-card">
+                    <div class="metric-value" style="color: var(--rc-purple);">$600K</div>
+                    <div class="metric-label">Annual Quota</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" style="color: var(--rc-teal);">$150K</div>
+                    <div class="metric-label">Quarterly Target</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" style="color: var(--rc-coral);">95%</div>
+                    <div class="metric-label">Retention Target</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" style="color: var(--rc-gold);">120%</div>
+                    <div class="metric-label">Net Revenue Retention</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value" style="color: var(--rc-navy);">3x</div>
+                    <div class="metric-label">Pipeline Coverage</div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon purple">📊</div>
+                        <h3 class="card-title">Leading Indicators (Weekly)</h3>
+                    </div>
+                    <table style="width: 100%; font-size: 0.95rem;">
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 0.75rem 0;"><strong>Outbound Touches</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">20/week</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 0.75rem 0;"><strong>Discovery Calls Booked</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">3-5/week</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 0.75rem 0;"><strong>Demos Delivered</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">2-3/week</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 0.75rem 0;"><strong>Account Check-ins</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">5-8/week</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem 0;"><strong>Pipeline Added</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">$30K/week</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon teal">📈</div>
+                        <h3 class="card-title">Lagging Indicators (Monthly/Quarterly)</h3>
+                    </div>
+                    <table style="width: 100%; font-size: 0.95rem;">
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 0.75rem 0;"><strong>New Logos Closed</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">1-2/month</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 0.75rem 0;"><strong>Expansion Revenue</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">$25K/month</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 0.75rem 0;"><strong>Win Rate (Qualified Opps)</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">>35%</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #F1F5F9;">
+                            <td style="padding: 0.75rem 0;"><strong>Average Deal Size</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;">$40K ACV</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 0.75rem 0;"><strong>Sales Cycle (Enterprise)</strong></td>
+                            <td style="padding: 0.75rem 0; text-align: right;"><90 days</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <h3>🎯 Quota Composition (Recommended for EMEA)</h3>
+                <div class="grid-3">
+                    <div style="text-align: center;">
+                        <div style="font-family: 'Space Grotesk'; font-size: 2rem; font-weight: 700; color: var(--rc-purple);">50%</div>
+                        <div class="text-muted">New Logo Acquisition</div>
+                        <p style="font-size: 0.875rem; margin-top: 0.5rem;">Enterprise contracts, converted PLG users</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-family: 'Space Grotesk'; font-size: 2rem; font-weight: 700; color: var(--rc-teal);">30%</div>
+                        <div class="text-muted">Expansion Revenue</div>
+                        <p style="font-size: 0.875rem; margin-top: 0.5rem;">Upsells, new apps, usage growth</p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-family: 'Space Grotesk'; font-size: 2rem; font-weight: 700; color: var(--rc-gold);">20%</div>
+                        <div class="text-muted">Renewals</div>
+                        <p style="font-size: 0.875rem; margin-top: 0.5rem;">Strategic account retention</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">RevenueCat</div>
+            <p>EMEA Strategic Account Executive Playbook — Q1 2026</p>
+            <p style="margin-top: 1rem; font-size: 0.75rem;">Confidential — For Internal Use Only</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation
+        document.querySelectorAll('.nav-tab').forEach(tab => {
+            tab.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const target = document.querySelector(targetId);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+                
+                // Update active state
+                document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Update active nav on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section[id]');
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+                if (tab.getAttribute('href') === '#' + current) {
+                    tab.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
